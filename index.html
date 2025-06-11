@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MITS - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50 flex flex-col md:flex-row">
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="fixed md:fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-blue-800 to-blue-600 text-white transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out z-40">
+    <div class="p-4 text-xl font-bold flex items-center space-x-2">
+      <span>🚀</span><span>MITS Menu</span>
+    </div>
+    <nav class="px-4 space-y-4 mt-4">
+      <a href="#" class="block font-semibold hover:text-yellow-300"><i class="fa fa-file"></i> Internship Application</a>
+      <a href="#" class="block font-semibold hover:text-yellow-300"><i class="fa fa-envelope"></i> Offer Letter Generation</a>
+      <a href="#" class="block font-semibold hover:text-yellow-300"><i class="fa fa-certificate"></i> Certificate Verification</a>
+      <a href="#" class="block font-semibold hover:text-yellow-300"><i class="fa fa-users"></i> Join Our Team</a>
+      <a href="#" class="block font-semibold hover:text-yellow-300"><i class="fa fa-phone"></i> Contact Info</a>
+    </nav>
+    <footer class="absolute bottom-4 left-4 text-sm text-white">© 2025 MITS. All rights reserved.</footer>
+  </aside>
+
+  <!-- Hamburger Button -->
+  <button id="hamburger" class="md:hidden fixed top-4 left-4 z-50 bg-blue-600 p-2 rounded text-white focus:outline-none">
+    <div class="space-y-1">
+    <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </div>
+  </button>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-6 md:ml-64 mt-20 md:mt-0">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white shadow fixed w-full md:ml-64 top-0 left-0 z-30">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-2xl md:text-3xl font-extrabold tracking-wide text-blue-700">MITS</div>
+        <nav class="space-x-6 hidden md:block">
+          <a href="#" class="hover:text-blue-500">Home</a>
+          <a href="tutorials.html" class="hover:text-blue-500">Tutorials</a>
+          <a href="projects.html" class="hover:text-blue-500">Projects</a>
+          <a href="#" class="hover:text-blue-500">About Us</a>
+          <a href="#" class="hover:text-blue-500">Contact</a>
+          <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Login</a>
+           <a href="#" class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">Sign Up</a>
+  
+        </nav>
+        
+      </div>
+    </header>
+
+  <!-- Welcome Banner -->
+  <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-20 px-6">
+    <h2 class="text-4xl font-bold mb-4">Empowering Students Through Technology</h2>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">Micro Information Technology Services (MITS) is your gateway to quality tutorials, real-world projects, and practical coding experiences.</p>
+    <div class="space-x-4">
+      <a href="tutorials.html" class="bg-white text-blue-600 px-6 py-3 rounded font-semibold shadow hover:bg-gray-200">Start Learning</a>
+      <a href="projects.html" class="bg-white text-blue-600 px-6 py-3 rounded font-semibold shadow hover:bg-gray-200">Browse Projects</a>
+    </div>
+  </header>
+
+  <!-- Featured Tutorials Section -->
+<section class="py-16 bg-gray-100 px-6">
+  <h3 class="text-3xl font-bold text-center mb-10">🔥 Featured Tutorials</h3>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    
+    <!-- Tutorial Card 1 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/java.png" alt="Java Tutorial" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">Java Basics</h4>
+      <p class="text-gray-600 mb-4">Start your programming journey with Java fundamentals.</p>
+      <span class="inline-block bg-blue-100 text-blue-600 text-xs px-3 py-1 rounded-full">Beginner</span>
+    </div>
+
+    <!-- Tutorial Card 2 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/Web_dev.png" alt="Web Dev" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">Build Your Portfolio Website</h4>
+      <p class="text-gray-600 mb-4">Learn HTML, CSS & JS by building a beautiful personal site.</p>
+      <span class="inline-block bg-yellow-100 text-yellow-700 text-xs px-3 py-1 rounded-full">Intermediate</span>
+    </div>
+
+    <!-- Tutorial Card 3 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/python.png" alt="Python Tutorial" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">Python for Data Analysis</h4>
+      <p class="text-gray-600 mb-4">Master Pandas and NumPy for efficient data manipulation.</p>
+      <span class="inline-block bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full">Advanced</span>
+    </div>
+
+    <!-- Tutorial Card 4 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/javaScript.png" alt="JavaScript Tutorial" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">JavaScript Essentials</h4>
+      <p class="text-gray-600 mb-4">Understand how JS works and build interactive web apps.</p>
+      <span class="inline-block bg-purple-100 text-purple-600 text-xs px-3 py-1 rounded-full">Beginner</span>
+    </div>
+
+    <!-- Tutorial Card 5 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/React.png" alt="React Tutorial" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">React Crash Course</h4>
+      <p class="text-gray-600 mb-4">Create dynamic single-page applications using React JS.</p>
+      <span class="inline-block bg-red-100 text-red-600 text-xs px-3 py-1 rounded-full">Intermediate</span>
+    </div>
+
+    <!-- Tutorial Card 6 -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="Icons/sql.svg" alt="SQL Tutorial" class="h-12 mb-4">
+      <h4 class="text-xl font-semibold mb-2">Mastering SQL Queries</h4>
+      <p class="text-gray-600 mb-4">Learn to retrieve and manipulate data from relational databases.</p>
+      <span class="inline-block bg-green-100 text-green-600 text-xs px-3 py-1 rounded-full">Advanced</span>
+    </div>
+
+  </div>
+</section>
+ <!-- University Logos -->
+  <section class="py-12 bg-white px-6">
+    <h3 class="text-2xl font-bold text-center mb-8">Affiliated Universities</h3>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-6 items-center justify-items-center">
+      <img src="Logos/AU.jpeg" alt="University 1" class="h-16" />
+      <img src="Logos/JNTU.png" alt="University 2" class="h-16" />
+      <img src="Logos/BITS.png" alt="University 3" class="h-16" />
+      <img src="Logos/Delhi_University.jpeg" alt="University 4" class="h-16" />
+      <img src="Logos/KL.jpeg" alt="University 5" class="h-16" />
+      <img src="Logos/VITS.png" alt="University 6" class="h-16" />
+      <img src="Logos/Punjab_university.png" alt="University 7" class="h-16" />
+      <img src="Logos/LPU.png" alt="University 8" class="h-16" />
+      <img src="Logos/SRM.png" alt="University 9" class="h-16" />
+      <img src="Logos/Bangalore_University.png" alt="University 10" class="h-16" />
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="bg-gray-100 py-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-blue-600 font-bold text-3xl">
+      <div>
+        <div id="stat1">0</div>
+        <p class="text-sm text-gray-600 font-normal">Students Enrolled</p>
+      </div>
+      <div>
+        <div id="stat2">0</div>
+        <p class="text-sm text-gray-600 font-normal">Tutorials Published</p>
+      </div>
+      <div>
+        <div id="stat3">0</div>
+        <p class="text-sm text-gray-600 font-normal">Projects Submitted</p>
+      </div>
+      <div>
+        <div id="stat4">0</div>
+        <p class="text-sm text-gray-600 font-normal">Social Followers</p>
+      </div>
+    </div>
+  </section>
+<!-- Stats -->
+  <section class="bg-gray-100 py-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-blue-600 font-bold text-3xl">
+      <div>
+        <div id="stat1">0</div>
+        <p class="text-sm text-gray-600 font-normal">Students Enrolled</p>
+      </div>
+      <div>
+        <div id="stat2">0</div>
+        <p class="text-sm text-gray-600 font-normal">Tutorials Published</p>
+      </div>
+      <div>
+        <div id="stat3">0</div>
+        <p class="text-sm text-gray-600 font-normal">Projects Submitted</p>
+      </div>
+      <div>
+        <div id="stat4">0</div>
+        <p class="text-sm text-gray-600 font-normal">Social Followers</p>
+      </div>
+    </div>
+  </section>
+ <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    <div class="mb-4">
+      <a href="#" class="mx-2 hover:underline">FAQ</a>
+      <a href="#" class="mx-2 hover:underline">Help</a>
+      <a href="#" class="mx-2 hover:underline">Forums</a>
+    </div>
+    <p class="text-sm">&copy; 2025 Micro Information Technology Services. All rights reserved.</p>
+  </footer>
+
+  <!-- Login Modal -->
+<div id="loginModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white rounded-lg p-6 w-80">
+    <h2 class="text-xl font-bold mb-4 text-center">Login</h2>
+    <input type="email" placeholder="Email" class="w-full mb-3 p-2 border rounded" />
+    <input type="password" placeholder="Password" class="w-full mb-3 p-2 border rounded" />
+    <button class="bg-blue-500 text-white px-4 py-2 rounded w-full hover:bg-blue-600">Login</button>
+    <button onclick="closeModal('loginModal')" class="text-sm text-gray-500 mt-2 w-full text-center">Cancel</button>
+  </div>
+</div>
+
+<!-- Sign Up Modal -->
+<div id="signupModal" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white rounded-lg p-6 w-80">
+    <h2 class="text-xl font-bold mb-4 text-center">Sign Up</h2>
+    <input type="text" placeholder="Full Name" class="w-full mb-3 p-2 border rounded" />
+    <input type="email" placeholder="Email" class="w-full mb-3 p-2 border rounded" />
+    <input type="password" placeholder="Password" class="w-full mb-3 p-2 border rounded" />
+    <button class="bg-green-500 text-white px-4 py-2 rounded w-full hover:bg-green-600">Register</button>
+    <button onclick="closeModal('signupModal')" class="text-sm text-gray-500 mt-2 w-full text-center">Cancel</button>
+  </div>
+</div>
+  <script>
+  const hamburger = document.getElementById("hamburger");
+  const sidebar = document.getElementById("sidebar");
+
+  hamburger.addEventListener("click", () => {
+    sidebar.classList.toggle("-translate-x-full");
+  });
+
+  // Optional: Click outside to close on mobile
+  document.addEventListener("click", function (e) {
+    if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
+      if (window.innerWidth < 768) {
+        sidebar.classList.add("-translate-x-full");
+      }
+    }
+  });
+</script>
+
+  <script src="mits.js"></script>
+</body>
+</html>
