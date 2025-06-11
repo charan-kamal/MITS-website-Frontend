@@ -1,0 +1,228 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | MITS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">MITS</h1>
+    <div class="space-x-6">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="tutorials.html" class="hover:text-blue-600">Tutorials</a>
+      <a href="projects.html" class="text-blue-600 font-semibold">Projects</a>
+      <a href="#" class="hover:text-blue-600">About Us</a>
+      <a href="#" class="hover:text-blue-600">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Project Filters -->
+  <section class="py-6 px-6 max-w-6xl mx-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-bold">Student Projects</h2>
+      <select class="p-2 border rounded">
+        <option>All Levels</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+    </div>
+
+    <!-- Project Cards -->
+    <!-- Projects Grid -->
+<div class="max-w-7xl mx-auto px-4 py-8">
+  <h2 class="text-2xl font-bold text-gray-800 mb-6">Explore Projects</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Project Card Template -->
+    <!-- Repeat below structure for each project -->
+
+    <!-- Portfolio -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Portfolio</h3>
+      <p class="text-sm mb-2">Create a personal website to showcase your projects, skills, and achievements.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Weather Updates App -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Weather Updates App</h3>
+      <p class="text-sm mb-2">Fetch real-time weather data using APIs and display it beautifully.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Quiz Game -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Quiz Game</h3>
+      <p class="text-sm mb-2">A fun trivia quiz app with multiple-choice questions and score tracking.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Blog Website -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Blog Website</h3>
+      <p class="text-sm mb-2">Design and build a responsive blog platform for articles and comments.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- E-Commerce Website -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">E-Commerce Website/App</h3>
+      <p class="text-sm mb-2">Build a complete shopping experience with product listings, cart, and checkout.</p>
+      <span class="text-xs inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full mb-2">Advanced</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Currency Converter -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Currency Converter</h3>
+      <p class="text-sm mb-2">Use live exchange rate APIs to build a real-time currency converter.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Student Management System -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Student Management System</h3>
+      <p class="text-sm mb-2">Manage student records, grades, and attendance in a full-stack system.</p>
+      <span class="text-xs inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full mb-2">Advanced</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Rock-Paper-Scissor Game -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Rock-Paper-Scissor Game</h3>
+      <p class="text-sm mb-2">Play the classic game against the computer with fun animations.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Random Password Generator -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Random Password Generator</h3>
+      <p class="text-sm mb-2">Generate secure passwords with customizable length and characters.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Tic Tac Toe -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Tic-Tac-Toe Game</h3>
+      <p class="text-sm mb-2">Play against a friend or computer in this classic game.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Analog Clock -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Analog Clock</h3>
+      <p class="text-sm mb-2">A real-time analog clock with smooth animations and ticking hands.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Stop Watch -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Stop Watch</h3>
+      <p class="text-sm mb-2">A stopwatch app to start, stop, and reset time tracking with precision.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Digital Clock -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Digital Clock</h3>
+      <p class="text-sm mb-2">Display the current date and time using JavaScript in real-time.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- QR Code Generator -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">QR Code Generator</h3>
+      <p class="text-sm mb-2">Convert any text or URL into a QR code instantly.</p>
+      <span class="text-xs inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full mb-2">Intermediate</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- To-do List -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">To-do List</h3>
+      <p class="text-sm mb-2">Organize your tasks with this easy-to-use todo app with save features.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+    <!-- Calculator -->
+    <div class="bg-white p-5 rounded shadow hover:shadow-lg transition">
+      <h3 class="text-lg font-bold mb-2">Calculator</h3>
+      <p class="text-sm mb-2">A simple calculator for basic arithmetic operations with clean design.</p>
+      <span class="text-xs inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full mb-2">Beginner</span>
+      <div class="flex gap-3 mt-2">
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Details</a>
+        <button class="text-white bg-green-500 px-3 py-1 rounded hover:bg-green-600">Try Online</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </section>
+
+</body>
+</html>
